@@ -1,0 +1,26 @@
+
+<h1>Manage Videos</h1>
+
+<p>
+You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+</p>
+
+
+</div><!-- search-form -->
+<?php $this->widget('bootstrap.widgets.TbGridView', array(
+
+    'type'=>'striped bordered condensed',
+    'dataProvider'=>$model->search(),
+    'filter'=>$model,
+    'template'=>"{items}",
+    'columns'=>array(
+        'id',
+        'link',
+        array(
+            'class'=>'bootstrap.widgets.TbButtonColumn',
+            'htmlOptions'=>array('style'=>'width: 50px'),
+        ),
+    ),
+)); ?>
+

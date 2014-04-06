@@ -1,0 +1,1837 @@
+2014/04/05 15:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 15:34:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 15:34:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 15:34:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 15:34:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 15:34:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 15:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 15:34:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:08:00 [error] [php] array_push() expects parameter 1 to be array, string given (/var/www/site/protected/controllers/DocumentController.php:150)
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): DocumentController->runAction()
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): DocumentController->filterAccessControl()
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): DocumentController->runActionWithFilters()
+#8 /var/www/site/framework/web/CWebApplication.php(282): DocumentController->run()
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index.php/document
+in /var/www/site/protected/controllers/DocumentController.php (150)
+in /var/www/site/index.php (13)
+2014/04/05 16:17:22 [error] [php] Undefined variable: itemsn (/var/www/site/protected/controllers/DocumentController.php:162)
+Stack trace:
+#0 /var/www/site/framework/web/filters/CFilterChain.php(133): DocumentController->runAction()
+#1 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/site/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/site/framework/web/filters/CInlineFilter.php(58): DocumentController->filterAccessControl()
+#4 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/site/framework/web/CController.php(265): DocumentController->runActionWithFilters()
+#7 /var/www/site/framework/web/CWebApplication.php(282): DocumentController->run()
+#8 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index.php/document
+in /var/www/site/protected/controllers/DocumentController.php (162)
+in /var/www/site/index.php (13)
+2014/04/05 16:17:35 [error] [php] Undefined variable: itemsn (/var/www/site/protected/controllers/DocumentController.php:162)
+Stack trace:
+#0 /var/www/site/framework/web/filters/CFilterChain.php(133): DocumentController->runAction()
+#1 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/site/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/site/framework/web/filters/CInlineFilter.php(58): DocumentController->filterAccessControl()
+#4 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/site/framework/web/CController.php(265): DocumentController->runActionWithFilters()
+#7 /var/www/site/framework/web/CWebApplication.php(282): DocumentController->run()
+#8 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index.php/document
+in /var/www/site/protected/controllers/DocumentController.php (162)
+in /var/www/site/index.php (13)
+2014/04/05 16:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Array".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('Array')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/Array
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:17:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Array".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('Array')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/Array
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:25:32 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/site/framework/web/helpers/CHtml.php:103)
+Stack trace:
+#0 /var/www/site/framework/web/helpers/CHtml.php(158): renderAttributes()
+#1 /var/www/site/protected/views/document/index.php(14): tag()
+#2 /var/www/site/framework/web/CBaseController.php(126): require()
+#3 /var/www/site/framework/web/CBaseController.php(95): DocumentController->renderInternal()
+#4 /var/www/site/framework/web/CController.php(869): DocumentController->renderFile()
+#5 /var/www/site/framework/web/CController.php(782): DocumentController->renderPartial()
+#6 /var/www/site/protected/controllers/DocumentController.php(162): DocumentController->render()
+#7 /var/www/site/framework/web/actions/CInlineAction.php(49): DocumentController->actionIndex()
+#8 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/site/framework/web/filters/CFilterChain.php(133): DocumentController->runAction()
+#10 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/site/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/site/framework/web/filters/CInlineFilter.php(58): DocumentController->filterAccessControl()
+#13 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/site/framework/web/CController.php(265): DocumentController->runActionWithFilters()
+#16 /var/www/site/framework/web/CWebApplication.php(282): DocumentController->run()
+#17 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index.php/document
+in /var/www/site/protected/views/document/index.php (14)
+in /var/www/site/protected/controllers/DocumentController.php (162)
+in /var/www/site/index.php (13)
+2014/04/05 16:28:43 [error] [php] Trying to get property of non-object (/var/www/site/protected/controllers/DocumentController.php:146)
+Stack trace:
+#0 /var/www/site/framework/web/filters/CFilterChain.php(133): DocumentController->runAction()
+#1 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /var/www/site/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /var/www/site/framework/web/filters/CInlineFilter.php(58): DocumentController->filterAccessControl()
+#4 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#6 /var/www/site/framework/web/CController.php(265): DocumentController->runActionWithFilters()
+#7 /var/www/site/framework/web/CWebApplication.php(282): DocumentController->run()
+#8 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index.php/document
+in /var/www/site/protected/controllers/DocumentController.php (146)
+in /var/www/site/index.php (13)
+2014/04/05 16:31:28 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/site/framework/web/helpers/CHtml.php:103)
+Stack trace:
+#0 /var/www/site/framework/web/helpers/CHtml.php(158): renderAttributes()
+#1 /var/www/site/protected/views/document/index.php(14): tag()
+#2 /var/www/site/framework/web/CBaseController.php(126): require()
+#3 /var/www/site/framework/web/CBaseController.php(95): DocumentController->renderInternal()
+#4 /var/www/site/framework/web/CController.php(869): DocumentController->renderFile()
+#5 /var/www/site/framework/web/CController.php(782): DocumentController->renderPartial()
+#6 /var/www/site/protected/controllers/DocumentController.php(162): DocumentController->render()
+#7 /var/www/site/framework/web/actions/CInlineAction.php(49): DocumentController->actionIndex()
+#8 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /var/www/site/framework/web/filters/CFilterChain.php(133): DocumentController->runAction()
+#10 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /var/www/site/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /var/www/site/framework/web/filters/CInlineFilter.php(58): DocumentController->filterAccessControl()
+#13 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#15 /var/www/site/framework/web/CController.php(265): DocumentController->runActionWithFilters()
+#16 /var/www/site/framework/web/CWebApplication.php(282): DocumentController->run()
+#17 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index.php/document
+in /var/www/site/protected/views/document/index.php (14)
+in /var/www/site/protected/controllers/DocumentController.php (162)
+in /var/www/site/index.php (13)
+2014/04/05 16:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pic/pic1-thumb.jpg".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('pic/pic1-thumb....')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/pic/pic1-thumb.jpg
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:52:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "href=>1396645622_background.jpg".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('href=>139664562...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/href=%3E1396645622_background.jpg
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:52:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "href=>1396645440_background.jpg".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('href=>139664544...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/href=%3E1396645440_background.jpg
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:53:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1396645440_background.jpg".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('1396645440_back...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/1396645440_background.jpg
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:53:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1396645622_background.jpg".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('1396645622_back...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/1396645622_background.jpg
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-next.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-next.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-next.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-next.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 16:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 17:00:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/05 17:00:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:49:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:49:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:49:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:49:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-next.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-next.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:49:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('images')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('document/images...')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/document/images/lightbox-btn-close.gif
+---
+2014/04/06 15:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-close.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/images/lightbox-ico-loading.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/im...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/images/lightbox-ico-loading.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:55:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:55:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:55:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-prev.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-prev.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-next.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-next.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-next.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-next.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-blank.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-blank.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:56:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-next.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-next.gif
+HTTP_REFERER=http://localhost/site/index.php/document
+---
+2014/04/06 15:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-close.gif
+---
+2014/04/06 15:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jsslideimage/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jsslideimage/li...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jsslideimage/lightbox-btn-close.gif
+---
+2014/04/06 16:04:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+---
+2014/04/06 16:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimages/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimages/...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimages/images/lightbox-btn-close.gif
+---
+2014/04/06 16:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+---
+2014/04/06 16:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('images/lightbox...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/images/lightbox-btn-close.gif
+---
+2014/04/06 16:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimages/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimages/...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimages/images/lightbox-btn-close.gif
+---
+2014/04/06 16:06:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimages/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimages/...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimages/images/lightbox-btn-close.gif
+---
+2014/04/06 16:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimage/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimage/i...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimage/images/lightbox-btn-close.gif
+---
+2014/04/06 16:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimage/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimage/i...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimage/images/lightbox-btn-close.gif
+---
+2014/04/06 16:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimages/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimages/...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimages/images/lightbox-btn-close.gif
+---
+2014/04/06 16:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimage/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimage/i...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimage/images/lightbox-btn-close.gif
+---
+2014/04/06 16:07:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimage".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimage')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimage
+---
+2014/04/06 16:26:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimage/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimage/i...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimage/images/lightbox-btn-close.gif
+---
+2014/04/06 16:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jssliderimage/images/lightbox-btn-close.gif".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('jssliderimage/i...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/jssliderimage/images/lightbox-btn-close.gif
+---
+2014/04/06 17:08:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php/news')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/index.php/news
+HTTP_REFERER=http://localhost/site/index.php/admin
+---
+2014/04/06 18:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "ru".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('ru')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('ru')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/ru')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/news/ru
+---
+2014/04/06 18:17:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "ru".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('ru')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('ru')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/ru')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/news/ru
+---
+2014/04/06 18:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "ru".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('ru')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('ru')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/ru')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/news/ru
+---
+2014/04/06 18:17:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "ru".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('ru')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('ru')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/ru')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/news/ru
+---
+2014/04/06 18:17:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "index.php".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/index.php/...')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/news/index.php/news
+HTTP_REFERER=http://localhost/site/index.php/news/ru
+---
+2014/04/06 18:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller>/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('<controller>/ne...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/en/news
+---
+2014/04/06 18:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller>/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('<controller>/ne...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/en/news
+---
+2014/04/06 18:33:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller>/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('<controller>/ne...')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/en/news
+---
+2014/04/06 18:38:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/news.php".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('en/news.php')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/en/news.php
+---
+2014/04/06 18:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index.php/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php/news')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/index.php/news
+HTTP_REFERER=http://localhost/site/index.php/
+---
+2014/04/06 18:39:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index.php/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php/news')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/index.php/news
+HTTP_REFERER=http://localhost/site/index.php/
+---
+2014/04/06 18:45:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "en/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('en/news')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/en/news
+---
+2014/04/06 18:57:51 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.components.UrlManager" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /var/www/site/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/site/framework/YiiBase.php(196): YiiBase::import('application.com...', true)
+#1 /var/www/site/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/site/framework/base/CApplication.php(522): CModule->getComponent('urlManager')
+#3 /var/www/site/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#4 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/site/index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/site/
+HTTP_REFERER=http://localhost/site/index.php/en/news
+---
+2014/04/06 20:17:53 [error] [php] Undefined variable: language (/var/www/site/themes/phil/views/layouts/main.php:60)
+Stack trace:
+#0 /var/www/site/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#1 /var/www/site/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /var/www/site/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /var/www/site/framework/web/CBaseController.php(206): CContentDecorator->run()
+#4 /var/www/site/framework/web/CBaseController.php(300): SiteController->endWidget()
+#5 /var/www/site/protected/views/layouts/column1.php(6): SiteController->endContent()
+#6 /var/www/site/framework/web/CBaseController.php(126): require()
+#7 /var/www/site/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/site/framework/web/CController.php(784): SiteController->renderFile()
+#9 /var/www/site/protected/controllers/SiteController.php(34): SiteController->render()
+#10 /var/www/site/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/site/framework/web/CController.php(286): SiteController->runAction()
+#13 /var/www/site/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/site/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/
+in /var/www/site/themes/phil/views/layouts/main.php (60)
+in /var/www/site/protected/views/layouts/column1.php (6)
+in /var/www/site/protected/controllers/SiteController.php (34)
+2014/04/06 20:56:39 [error] [php] Undefined variable: lang (/var/www/site/themes/phil/views/layouts/main.php:62)
+Stack trace:
+#0 /var/www/site/framework/web/widgets/CContentDecorator.php(76): SiteController->renderFile()
+#1 /var/www/site/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate()
+#2 /var/www/site/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 /var/www/site/framework/web/CBaseController.php(206): CContentDecorator->run()
+#4 /var/www/site/framework/web/CBaseController.php(300): SiteController->endWidget()
+#5 /var/www/site/protected/views/layouts/column1.php(6): SiteController->endContent()
+#6 /var/www/site/framework/web/CBaseController.php(126): require()
+#7 /var/www/site/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#8 /var/www/site/framework/web/CController.php(784): SiteController->renderFile()
+#9 /var/www/site/protected/controllers/SiteController.php(43): SiteController->render()
+#10 /var/www/site/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /var/www/site/framework/web/CController.php(286): SiteController->runAction()
+#13 /var/www/site/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#14 /var/www/site/framework/web/CWebApplication.php(282): SiteController->run()
+#15 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/site/index.php(13): CWebApplication->run()
+REQUEST_URI=/site/index.php
+in /var/www/site/themes/phil/views/layouts/main.php (62)
+in /var/www/site/protected/views/layouts/column1.php (6)
+in /var/www/site/protected/controllers/SiteController.php (43)
+2014/04/06 21:03:45 [error] [exception.CException] exception 'CException' with message 'Alias "ext.LangPick.ELangPick" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /var/www/site/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/site/framework/web/CWidgetFactory.php(146): YiiBase::import('ext.LangPick.EL...', true)
+#1 /var/www/site/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.LangPick.EL...', Array)
+#2 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('ext.LangPick.EL...', Array)
+#3 /var/www/site/themes/phil/views/layouts/main.php(61): CBaseController->widget('ext.LangPick.EL...', Array)
+#4 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/t...')
+#5 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/t...', Array, true)
+#6 /var/www/site/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/site/t...', Array, true)
+#7 /var/www/site/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 /var/www/site/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 /var/www/site/framework/web/CBaseController.php(206): COutputProcessor->run()
+#10 /var/www/site/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 /var/www/site/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#12 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#13 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#14 /var/www/site/framework/web/CController.php(784): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#15 /var/www/site/protected/controllers/SiteController.php(43): CController->render('index')
+#16 /var/www/site/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#17 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/site/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#19 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /var/www/site/framework/web/CWebApplication.php(282): CController->run('')
+#21 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#22 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /var/www/site/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/site/index.php
+HTTP_REFERER=http://localhost/site/index.php
+---
+2014/04/06 21:04:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Невозможно определить CSRF.' in /var/www/site/framework/web/CHttpRequest.php:1247
+Stack trace:
+#0 /var/www/site/framework/base/CComponent.php(561): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /var/www/site/framework/base/CApplication.php(207): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /var/www/site/framework/base/CApplication.php(178): CApplication->onBeginRequest(Object(CEvent))
+#3 /var/www/site/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/site/index.php
+HTTP_REFERER=http://localhost/site/index.php
+---
+2014/04/06 21:05:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Невозможно определить CSRF.' in /var/www/site/framework/web/CHttpRequest.php:1247
+Stack trace:
+#0 /var/www/site/framework/base/CComponent.php(561): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /var/www/site/framework/base/CApplication.php(207): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /var/www/site/framework/base/CApplication.php(178): CApplication->onBeginRequest(Object(CEvent))
+#3 /var/www/site/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/site/index.php
+HTTP_REFERER=http://localhost/site/index.php
+---
+2014/04/06 21:07:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Невозможно определить CSRF.' in /var/www/site/framework/web/CHttpRequest.php:1247
+Stack trace:
+#0 /var/www/site/framework/base/CComponent.php(561): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /var/www/site/framework/base/CApplication.php(207): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /var/www/site/framework/base/CApplication.php(178): CApplication->onBeginRequest(Object(CEvent))
+#3 /var/www/site/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/site/index.php
+HTTP_REFERER=http://localhost/site/index.php
+---
+2014/04/06 21:33:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Невозможно определить CSRF.' in /var/www/site/framework/web/CHttpRequest.php:1247
+Stack trace:
+#0 /var/www/site/framework/base/CComponent.php(561): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /var/www/site/framework/base/CApplication.php(207): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /var/www/site/framework/base/CApplication.php(178): CApplication->onBeginRequest(Object(CEvent))
+#3 /var/www/site/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/site/
+HTTP_REFERER=http://localhost/site/
+---
+2014/04/06 21:34:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Невозможно определить CSRF.' in /var/www/site/framework/web/CHttpRequest.php:1247
+Stack trace:
+#0 /var/www/site/framework/base/CComponent.php(561): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /var/www/site/framework/base/CApplication.php(207): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /var/www/site/framework/base/CApplication.php(178): CApplication->onBeginRequest(Object(CEvent))
+#3 /var/www/site/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/site/index.php
+HTTP_REFERER=http://localhost/site/index.php
+---
+2014/04/06 21:49:27 [error] [exception.CException] exception 'CException' with message 'Псевдоним "application.extensions.langhandler.ELangHandler" неверен. Убедитесь, что он указывает на существующий PHP файл.' in /var/www/site/framework/YiiBase.php:322
+Stack trace:
+#0 /var/www/site/framework/YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 /var/www/site/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /var/www/site/framework/base/CModule.php(523): CModule->getComponent('ELangHandler')
+#3 /var/www/site/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /var/www/site/framework/YiiBase.php(125): CApplication->__construct('/var/www/site/p...')
+#5 /var/www/site/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/var/www/site/p...')
+#6 /var/www/site/index.php(13): YiiBase::createWebApplication('/var/www/site/p...')
+#7 {main}
+REQUEST_URI=/site/index.php
+HTTP_REFERER=http://localhost/site/index.php
+---
+2014/04/06 22:12:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "index.php/news".' in /var/www/site/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php/news')
+#1 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/site/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/site/index.php/index.php/news
+HTTP_REFERER=http://localhost/site/index.php/
+---
+2014/04/06 22:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/site/protected/controllers/NewsController.php:175
+Stack trace:
+#0 /var/www/site/protected/controllers/NewsController.php(115): NewsController->loadModel('12')
+#1 [internal function]: NewsController->actionDelete('12')
+#2 /var/www/site/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#3 /var/www/site/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#4 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/site/framework/web/CController.php(1116): CFilterChain->run()
+#7 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/site/framework/web/CWebApplication.php(282): CController->run('delete')
+#16 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/delete')
+#17 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/site/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/site/index.php/news/delete/12?ajax=yw1
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 22:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/site/protected/controllers/NewsController.php:175
+Stack trace:
+#0 /var/www/site/protected/controllers/NewsController.php(115): NewsController->loadModel('12')
+#1 [internal function]: NewsController->actionDelete('12')
+#2 /var/www/site/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#3 /var/www/site/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#4 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/site/framework/web/CController.php(1116): CFilterChain->run()
+#7 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/site/framework/web/CWebApplication.php(282): CController->run('delete')
+#16 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/delete')
+#17 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/site/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/site/index.php/news/delete/12?ajax=yw1
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 22:39:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/site/protected/controllers/NewsController.php:175
+Stack trace:
+#0 /var/www/site/protected/controllers/NewsController.php(115): NewsController->loadModel('12')
+#1 [internal function]: NewsController->actionDelete('12')
+#2 /var/www/site/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#3 /var/www/site/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#4 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/site/framework/web/CController.php(1116): CFilterChain->run()
+#7 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /var/www/site/framework/web/CWebApplication.php(282): CController->run('delete')
+#16 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/delete')
+#17 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/site/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/site/index.php/news/delete/12?ajax=yw1
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 22:48:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/site/framework/web/CController.php:1118
+Stack trace:
+#0 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/delete')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/delete/11?ajax=yw0
+---
+2014/04/06 22:51:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/site/framework/web/CController.php:1118
+Stack trace:
+#0 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('delete')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/delete')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/delete/11
+---
+2014/04/06 23:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "index.php" ตามคำสั่งได้' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/default/i...')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/admin/default/index.php/update
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 23:10:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "index.php" ตามคำสั่งได้' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/default/i...')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/admin/default/index.php/update
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 23:11:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "index.php" ตามคำสั่งได้' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/default/i...')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/admin/default/index.php/update
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 23:13:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/update')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/update
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 23:15:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/update')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/update
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 23:19:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/admin/default/index
+---
+2014/04/06 23:21:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/admin
+---
+2014/04/06 23:26:41 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbDataColumn.status".' in /var/www/site/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/site/framework/YiiBase.php(220): CComponent->__set('status', Array)
+#1 /var/www/site/framework/zii/widgets/grid/CGridView.php(388): YiiBase::createComponent(Array, Object(TbGridView))
+#2 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#3 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#4 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#6 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 /var/www/site/protected/views/news/admin.php(51): CBaseController->widget('bootstrap.widge...', Array)
+#8 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#9 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#11 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#12 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#13 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#14 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#23 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#24 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /var/www/site/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/site/index.php/news/admin
+HTTP_REFERER=http://localhost/site/index.php/admin
+---
+2014/04/06 23:27:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admih".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('admih')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admih')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admih')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/news/admih
+---
+2014/04/06 23:27:12 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbDataColumn.status".' in /var/www/site/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/site/framework/YiiBase.php(220): CComponent->__set('status', Array)
+#1 /var/www/site/framework/zii/widgets/grid/CGridView.php(388): YiiBase::createComponent(Array, Object(TbGridView))
+#2 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#3 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#4 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#6 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 /var/www/site/protected/views/news/admin.php(51): CBaseController->widget('bootstrap.widge...', Array)
+#8 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#9 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#11 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#12 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#13 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#14 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#23 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#24 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /var/www/site/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:29:59 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbDataColumn.view".' in /var/www/site/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/site/framework/YiiBase.php(220): CComponent->__set('view', Array)
+#1 /var/www/site/framework/zii/widgets/grid/CGridView.php(388): YiiBase::createComponent(Array, Object(TbGridView))
+#2 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#3 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#4 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#6 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 /var/www/site/protected/views/news/admin.php(43): CBaseController->widget('bootstrap.widge...', Array)
+#8 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#9 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#11 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#12 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#13 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#14 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#23 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#24 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /var/www/site/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:31:44 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbDataColumn.update".' in /var/www/site/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/site/framework/YiiBase.php(220): CComponent->__set('update', Array)
+#1 /var/www/site/framework/zii/widgets/grid/CGridView.php(388): YiiBase::createComponent(Array, Object(TbGridView))
+#2 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#3 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#4 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#6 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 /var/www/site/protected/views/news/admin.php(41): CBaseController->widget('bootstrap.widge...', Array)
+#8 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#9 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#11 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#12 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#13 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#14 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#23 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#24 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /var/www/site/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:33:16 [error] [exception.CException] exception 'CException' with message 'Столбец должен быть указан в формате "Name:Type:Label". "Тип" и "Заголовок" не обязательны.' in /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php:103
+Stack trace:
+#0 /var/www/site/framework/zii/widgets/grid/CGridView.php(383): TbGridView->createDataColumn('{view} {update}...')
+#1 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#2 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#3 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#4 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#6 /var/www/site/protected/views/news/admin.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#7 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#8 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#9 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#11 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#12 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#13 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#20 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#22 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#23 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /var/www/site/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:34:12 [error] [exception.CException] exception 'CException' with message 'Столбец должен быть указан в формате "Name:Type:Label". "Тип" и "Заголовок" не обязательны.' in /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php:103
+Stack trace:
+#0 /var/www/site/framework/zii/widgets/grid/CGridView.php(383): TbGridView->createDataColumn('{view}')
+#1 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#2 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#3 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#4 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#6 /var/www/site/protected/views/news/admin.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#7 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#8 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#9 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#11 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#12 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#13 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#20 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#22 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#23 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /var/www/site/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:35:19 [error] [exception.CException] exception 'CException' with message 'Столбец должен быть указан в формате "Name:Type:Label". "Тип" и "Заголовок" не обязательны.' in /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php:103
+Stack trace:
+#0 /var/www/site/framework/zii/widgets/grid/CGridView.php(383): TbGridView->createDataColumn('{view} {delete}')
+#1 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#2 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#3 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#4 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#6 /var/www/site/protected/views/news/admin.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#7 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#8 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#9 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#11 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#12 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#13 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#20 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#22 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#23 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /var/www/site/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:35:21 [error] [exception.CException] exception 'CException' with message 'Столбец должен быть указан в формате "Name:Type:Label". "Тип" и "Заголовок" не обязательны.' in /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php:103
+Stack trace:
+#0 /var/www/site/framework/zii/widgets/grid/CGridView.php(383): TbGridView->createDataColumn('{view} {delete}')
+#1 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#2 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#3 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#4 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#6 /var/www/site/protected/views/news/admin.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#7 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#8 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#9 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#11 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#12 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#13 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#14 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#20 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#22 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#23 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#24 /var/www/site/index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:37:53 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbGridView.class".' in /var/www/site/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/site/framework/web/CWidgetFactory.php(161): CComponent->__set('class', 'CButtonColumn')
+#1 /var/www/site/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(NewsController), 'bootstrap.widge...', Array)
+#2 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /var/www/site/protected/views/news/admin.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#5 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#6 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#7 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#8 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#9 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#10 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#20 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /var/www/site/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:40:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/news/admin
+---
+2014/04/06 23:40:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/news/admin
+---
+2014/04/06 23:40:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/news/admin
+---
+2014/04/06 23:40:15 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/news/admin
+---
+2014/04/06 23:40:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/news/admin
+---
+2014/04/06 23:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "admih".' in /var/www/site/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(270): CController->missingAction('admih')
+#1 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admih')
+#2 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admih')
+#3 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/site/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/index.php/news/admih
+---
+2014/04/06 23:40:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/news/admin
+---
+2014/04/06 23:44:18 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "TbDataColumn.view".' in /var/www/site/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/site/framework/YiiBase.php(220): CComponent->__set('view', Array)
+#1 /var/www/site/framework/zii/widgets/grid/CGridView.php(388): YiiBase::createComponent(Array, Object(TbGridView))
+#2 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(91): CGridView->initColumns()
+#3 /var/www/site/framework/zii/widgets/grid/CGridView.php(359): TbGridView->initColumns()
+#4 /var/www/site/protected/extensions/bootstrap/widgets/TbGridView.php(49): CGridView->init()
+#5 /var/www/site/framework/web/CBaseController.php(147): TbGridView->init()
+#6 /var/www/site/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 /var/www/site/protected/views/news/admin.php(51): CBaseController->widget('bootstrap.widge...', Array)
+#8 /var/www/site/framework/web/CBaseController.php(126): require('/var/www/site/p...')
+#9 /var/www/site/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/site/p...', Array, true)
+#10 /var/www/site/framework/web/CController.php(869): CBaseController->renderFile('/var/www/site/p...', Array, true)
+#11 /var/www/site/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#12 /var/www/site/protected/controllers/NewsController.php(166): CController->render('admin', Array)
+#13 /var/www/site/framework/web/actions/CInlineAction.php(49): NewsController->actionAdmin()
+#14 /var/www/site/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#21 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /var/www/site/framework/web/CWebApplication.php(282): CController->run('admin')
+#23 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/admin')
+#24 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /var/www/site/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/site/index.php/news/admin
+---
+2014/04/06 23:57:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/admin
+---
+2014/04/07 00:11:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/admin
+---
+2014/04/07 00:11:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+HTTP_REFERER=http://localhost/site/index.php/admin
+---
+2014/04/07 00:11:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view
+---
+2014/04/07 00:14:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Некорректный запрос.' in /var/www/site/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/site/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/site/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/site/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/site/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/site/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/site/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/site/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/site/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/site/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/site/framework/web/CWebApplication.php(141): CWebApplication->runController('news/view/index...')
+#10 /var/www/site/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/site/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/index.php/news/view/index.php/news
+HTTP_REFERER=http://localhost/site/index.php/news/view/23
+---
